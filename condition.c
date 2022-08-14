@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {
@@ -6,9 +6,9 @@ int main(void)
 	int absoluteX = (x > 0) ? x : -x;
 	int max = (x > y) ? x : y;
 	int min = (x < y) ? x : y;
-	printf("xÀÇ Àý´ñ°ªÀº %dÀÔ´Ï´Ù.\n", absoluteX);
-	printf("x¿Í y Áß¿¡¼­ ÃÖ´ñ°ªÀº %dÀÔ´Ï´Ù.\n", max);
-	printf("x¿Í y Áß¿¡¼­ ÃÖ¼Ú°ªÀº %dÀÔ´Ï´Ù.\n", min);
+	printf("xì˜ ì ˆëŒ“ê°’ì€ %dìž…ë‹ˆë‹¤.\n", absoluteX);
+	printf("xì™€ y ì¤‘ì—ì„œ ìµœëŒ“ê°’ì€ %dìž…ë‹ˆë‹¤.\n", max);
+	printf("xì™€ y ì¤‘ì—ì„œ ìµœì†Ÿê°’ì€ %dìž…ë‹ˆë‹¤.\n", min);
 
 	return 0;
-}*/
+}
