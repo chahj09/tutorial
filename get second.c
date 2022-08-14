@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 #define SECOND_PER_MINUTE 60
 
 int main(void)
@@ -6,6 +6,6 @@ int main(void)
 	int input = 1000;
 	int minute = input / SECOND_PER_MINUTE;
 	int second = input % SECOND_PER_MINUTE;
-	printf("%dÃÊ %dºĞ %dÃÊÀÔ´Ï´Ù.\n", input, minute, second);
+	printf("%dÃƒÃŠ %dÂºÃ %dÃƒÃŠÃ€Ã”Â´ÃÂ´Ã™.\n", input, minute, second);
 	return 0;
-}*/
+}
