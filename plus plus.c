@@ -1,13 +1,13 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {
 	int x = 0;
-	printf("ÇöÀçÀÇ x´Â %dÀÔ´Ï´Ù.\n", x);
+	printf("í˜„ì¬ì˜ xëŠ” %dì…ë‹ˆë‹¤.\n", x);
 	x++;
-	printf("ÇöÀçÀÇ x´Â %dÀÔ´Ï´Ù.\n", x);
-	printf("ÇöÀçÀÇ x´Â %dÀÔ´Ï´Ù.\n", x--);
-	printf("ÇöÀçÀÇ x´Â %dÀÔ´Ï´Ù.\n", x);
-	printf("ÇöÀçÀÇ x´Â %dÀÔ´Ï´Ù.\n", --x);
+	printf("í˜„ì¬ì˜ xëŠ” %dì…ë‹ˆë‹¤.\n", x);
+	printf("í˜„ì¬ì˜ xëŠ” %dì…ë‹ˆë‹¤.\n", x--);
+	printf("í˜„ì¬ì˜ xëŠ” %dì…ë‹ˆë‹¤.\n", x);
+	printf("í˜„ì¬ì˜ xëŠ” %dì…ë‹ˆë‹¤.\n", --x);
 	return 0;
-}*/
+}
